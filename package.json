@@ -1,0 +1,13 @@
+{
+    "name": "sih2026-land-acquisition",
+    "private": true,
+    "scripts": {
+        "dev": "concurrently \"cd backend && venv\\Scripts\\python -m uvicorn app.main:app --reload --port 8000\" \"cd land-acq-delay-new && npm run dev\""
+    },
+    "devDependencies": {
+        "concurrently": "^9.0.1"
+    },
+    "dependencies": {
+        "run": "^2.1.2"
+    }
+}

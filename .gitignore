@@ -1,0 +1,22 @@
+# Node
+node_modules/
+package-lock.json
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Model files (if too large)
+*.pkl
+
+# Environment variables
+.env
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
