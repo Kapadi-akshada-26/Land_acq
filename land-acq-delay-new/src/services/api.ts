@@ -2,7 +2,7 @@
 // Base API layer — checks NEXT_PUBLIC_USE_MOCK_API to decide mock vs real FastAPI
 
 const USE_MOCK = process.env.NEXT_PUBLIC_USE_MOCK_API === "true";
-const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL ?? "http://localhost:8000";
+const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL || "/api";
 
 export { USE_MOCK, API_BASE };
 
